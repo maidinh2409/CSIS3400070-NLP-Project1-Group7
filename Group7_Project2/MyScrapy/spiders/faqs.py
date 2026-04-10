@@ -6,7 +6,7 @@ class DouglasFAQSpider(scrapy.Spider):
     allowed_domains = ["douglascollege.ca", "www.douglascollege.ca"]
 
     start_urls = [
-        "https://www.douglascollege.ca/student-services/student-resources/covid19/academic-faqs"
+        "https://www.douglascollege.ca/current-students/important-dates-information/exam-schedule/final-exam-faq"
     ]
 
     def parse(self, response):
